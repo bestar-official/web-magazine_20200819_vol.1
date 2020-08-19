@@ -1,0 +1,54 @@
+img { 
+    max-width:100%; 
+    height:auto; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.logo {
+    width: 100%;
+}
+
+.mainview {
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.totalPic {
+    width: 100%;
+}
+
+.back_button {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.title {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(40px);
+    transition: all 1s;
+}
+
+.title.is-slow {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
